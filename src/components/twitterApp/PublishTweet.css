@@ -1,0 +1,39 @@
+.username {
+    color: red;
+}
+
+textarea {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tweetbox {
+    text-align: justify;
+    background: #E1E1E1;
+    color: #000;
+    overflow-wrap: break-word;
+}
+
+.count {
+    float: right;
+    margin-right: 5px;
+    color: #000;
+}
+
+.tweetbox textarea.alert {
+    border-color: red;
+}
+
+.tweetbox textarea {
+    outline: none;
+    border-radius: 5px;
+}
+
+button {
+    float: right;
+    margin-right: 5px;
+}
+
+.highLight {
+    color: blue;
+}
