@@ -3,6 +3,10 @@ body {
   color: #555;
 }
 
+.section {
+  min-height: 79vh;
+}
+
 h1 {
   text-align: center;
   color: #007BFF;
@@ -41,9 +45,7 @@ footer {
   background-color: #000;
   margin: 0 auto;
   position: relative;
-  position:fixed;
   width:100%;
-  bottom: 0;
 }
 
 footer ul.reseauxsociaux {

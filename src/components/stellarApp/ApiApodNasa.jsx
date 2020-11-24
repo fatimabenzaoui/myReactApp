@@ -36,7 +36,7 @@ const ApiApodNasa = () => {
         />
       )}
       <div>
-        <h2>{media.title}</h2>
+        <h2 className="mt-5">{media.title}</h2>
         <p className="text-center">
           {moment(media.date).format("DD - MM - YYYY")}
         </p>
