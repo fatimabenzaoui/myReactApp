@@ -13,11 +13,26 @@ h1 {
 }
 
 h2 {
+  color: #007BFF;
   text-align: center;
+}
+
+.spantitleh2 {
+  color: #C9E6FF;
+}
+
+.h3-examples {
+  text-align: center;
+  background-color: #485E74;
+  color: #C9E6FF;
 }
 
 a:hover {
   text-decoration: none;
+}
+
+.item {
+  width: 60px;
 }
 
 /* NAVBAR */
@@ -119,4 +134,23 @@ footer .copyright {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #343A40;
+}
+
+.ascenseur {
+  overflow: auto;
+  height: 313px;
+}
+
+/* JSX */
+.div-cont {
+  background-color: #C9E6FF;
+}
+.cont-jsx {
+  margin-top: 75px;
+}
+
+/* MAP */
+img.avatar {
+  height: 40px;
+  width: 40px;
 }

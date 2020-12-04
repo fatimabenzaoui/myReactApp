@@ -17,6 +17,7 @@ const Navbar = () => {
                     <li className="nav-item"><Link className="nav-link" to="/myReactApp/todolistapp">todoListApp</Link></li>
                     <li className="nav-item"><Link className="nav-link" to="/myReactApp/twitterapp">twitterApp</Link></li>
                     <li className="nav-item"><Link className="nav-link" to="/myReactApp/bases">Bases</Link></li>
+                    <li className="nav-item"><Link className="nav-link" to="/myReactApp/examples">Examples</Link></li>
                 </ul>
             </div>
         </nav>
