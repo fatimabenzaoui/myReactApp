@@ -13,11 +13,11 @@ const Navbar = () => {
             </div>
             <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarResponsive">
                 <ul className="navbar-nav ml-auto" id="navbar">
-                    <li className="nav-item"><Link className="nav-link" to="/myReactApp/">nasaStellarApp</Link></li>
-                    <li className="nav-item"><Link className="nav-link" to="/myReactApp/todolistapp">todoListApp</Link></li>
-                    <li className="nav-item"><Link className="nav-link" to="/myReactApp/twitterapp">twitterApp</Link></li>
-                    <li className="nav-item"><Link className="nav-link" to="/myReactApp/bases">Bases</Link></li>
-                    <li className="nav-item"><Link className="nav-link" to="/myReactApp/examples">Examples</Link></li>
+                    <li className="nav-item"><Link className="nav-link" to="/">nasaStellarApp</Link></li>
+                    <li className="nav-item"><Link className="nav-link" to="/todolistapp">todoListApp</Link></li>
+                    <li className="nav-item"><Link className="nav-link" to="/twitterapp">twitterApp</Link></li>
+                    <li className="nav-item"><Link className="nav-link" to="/bases">Bases</Link></li>
+                    <li className="nav-item"><Link className="nav-link" to="/examples">Examples</Link></li>
                 </ul>
             </div>
         </nav>
