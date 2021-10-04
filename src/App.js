@@ -16,11 +16,11 @@ const App = () => {
   return (
     <Router>
       <NavBar />
-      <Route component={StellarApp} path="/myReactApp/" exact />
-      <Route component={TodoListApp} path="/myReactApp/todolistapp" />
-      <Route component={TwitterApp} path="/myReactApp/twitterapp" />
-      <Route component={Bases} path="/myReactApp/bases" />
-      <Route component={Examples} path="/myReactApp/examples" />
+      <Route component={StellarApp} path="/" exact />
+      <Route component={TodoListApp} path="/todolistapp" />
+      <Route component={TwitterApp} path="/twitterapp" />
+      <Route component={Bases} path="/bases" />
+      <Route component={Examples} path="/examples" />
       <Footer />
     </Router>
   );
